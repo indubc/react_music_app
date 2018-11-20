@@ -17,7 +17,7 @@ a{
 
 .banner .maincover{
     background: url('../images/cover.png');
-    height:100vw;
+    height: 450px;
     
     background-size: cover;
     background-position: center center;
@@ -69,4 +69,17 @@ a{
  font-size: 30px;
  font-weight: 100;
  margin: 20px 0;
+}
+
+/* Header CSS */
+.header{
+ position: relative;
+ text-align: center;
+ padding: 10px 5px;
+}
+
+.header span{
+ display:block;
+ height:7px;
+ background:#2196f3
 }
