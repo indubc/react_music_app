@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import Banner from '../components/banner'
 import Artistlist from './artists_list'
 
-const URL_Artists = 'http://localhost:3004/artists'
+const URL_Artists = 'https://my-json-server.typicode.com/indubc/react_music_app/artists/'
 
 
 class Home extends Component{
@@ -14,8 +14,8 @@ class Home extends Component{
         this.state={
             artists:''
         }
-    }
 
+    }
 
     //    request to an API
 
